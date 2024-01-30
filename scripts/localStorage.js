@@ -31,7 +31,7 @@ const removeFromLocalStorage = (digimon) => {
     let favorites = getLocalStorage();
 
     //We're finding the index of our parameter (digimon)
-    let namedIndex = favorites.IndexOf(digimon);
+    let namedIndex = favorites.indexOf(digimon);
 
     //remove the name from the array using the .splice method
     favorites.splice(namedIndex, 1);
