@@ -61,7 +61,7 @@ getFavoritesBtn.addEventListener('click', async () => {
         button.textContent = "X"
         // classList allows us to be a little more concise it doesnt replace all classes.
         button.classList.add(
-            "text-gray-400",
+            "text-gray-500",
             "bg-transparent",
             "hover:bg-gray-200",
             "hover:text-gray-900",
